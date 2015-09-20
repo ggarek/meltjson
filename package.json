@@ -1,0 +1,16 @@
+{
+  "name": "meltjson",
+  "version": "0.1.0",
+  "description": "A library to make json to json transformations",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "transform",
+    "reduce"
+  ],
+  "author": "igor ovsiannikov <gark@mail.ru>",
+  "license": "ISC"
+}
