@@ -4,7 +4,8 @@
   "description": "A library to make json to json transformations",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape dist/**/*.test.js",
+    "build-watch": "babel -d dist/ src/ -w"
   },
   "keywords": [
     "json",
@@ -12,5 +13,12 @@
     "reduce"
   ],
   "author": "igor ovsiannikov <gark@mail.ru>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "JSONPath": "^0.10.0"
+  }
 }
