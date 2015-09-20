@@ -1,11 +1,12 @@
 {
   "name": "meltjson",
   "version": "0.1.0",
-  "description": "A library to make json to json transformations",
-  "main": "src/main.js",
+  "description": "A library to perform json to json transformations",
+  "main": "lib/main.js",
   "scripts": {
     "test": "tape dist/**/*.test.js",
-    "build-watch": "babel -d dist/ src/ -w"
+    "build-watch": "babel -d dist/ src/ -w",
+    "lib": "babel -o lib/main.js src/main.js"
   },
   "keywords": [
     "json",
